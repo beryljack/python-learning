@@ -1,23 +1,42 @@
 courses =['History', 'Math', 'Physics', 'CompSci']
-print (len(courses))
-print (courses[3])
-print (courses[-1])
-print (courses[0:2])
+nums = [1, 5, 2, 4, 3]
+sorted_courses = sorted(courses)
+print (min(nums))
+courses =['History', 'Math', 'Physics', 'CompSci']
+nums = [1, 5, 2, 4, 3]
+sorted_courses = sorted(courses)
+print (sum(nums))
 courses = ['History', 'Math', 'Physics', 'CompSci']
-courses_2 = ['Art', 'Education',]
-courses.extend(courses_2)
-print (courses)
+print (courses.index('CompSci'))
+print ('Art' in courses)
+print ('Math' in courses)
 courses =['History', 'Math', 'Physics', 'CompSci']
-courses.remove('Math')
-print (courses)
+for item in courses:
+    print (item)
 courses =['History', 'Math', 'Physics', 'CompSci']
-num = [1, 5, 2, 4, 3]
-courses.sort(reverse=True)
-num.sort(reverse=True)
-print (courses)
+for index, courses in enumerate(courses):
+    print (index, courses)
+courses = ['History', 'Math', 'Physics', 'CompSci']
+course_str = ' - '.join(courses)
+new_list = course_str.split(' - ')
+print (course_str)
+print (new_list)
 courses =['History', 'Math', 'Physics', 'CompSci']
-num [1, 5, 2, 4, 3]
-sortes_courses = sorted(courses)
-print (sorted_courses)
-print (max(nums))
-
+list_1 = ['History', 'Math', 'Physics', 'CompSci']
+list_2 = list_1
+list_1[0] = 'Art'
+print (list_1)
+print (list_2)
+courses =('History', 'Math', 'Physics', 'CompSci')
+tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
+tuple_2 =tuple_1
+print (tuple_1)
+print (tuple_2)
+tuple_1 [0] = 'Art'
+print (tuple_1)
+print (tuple_2)
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+print (cs_courses)
+courses =('History', 'Math', 'Physics', 'CompSci')
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+print (cs_courses)
